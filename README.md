@@ -21,6 +21,30 @@ CPU with high capabilities).
 
 For the best **performance** – use **Speed** preset.
 
+## SDK dependencies
+
+IMPORTANT: All of this deps (except ONNX) will be removed in v1.2.0
+
+1. Retrofit: 
+```kotlin
+implementation "com.squareup.retrofit2:retrofit:$version"
+implementation "com.squareup.retrofit2:converter-gson:$version"
+implementation "com.squareup.okhttp3:logging-interceptor:$version"
+implementation "com.squareup.okhttp3:okhttp-tls:$version"
+```
+2. Gson: 
+```kotlin
+implementation "com.google.code.gson:gson:$version"
+```
+3. Onnx runtime
+```kotlin
+implementation "com.microsoft.onnxruntime:onnxruntime-android:1.15.0"
+```
+4. DataStore
+```kotlin
+implementation "androidx.datastore:datastore-preferences:$version"
+```
+
 ## Usage
 
 1. Add Audio SDK to your project as dependency
