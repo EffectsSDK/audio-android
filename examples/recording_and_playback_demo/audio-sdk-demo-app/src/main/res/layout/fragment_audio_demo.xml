@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	>
+
+
+	<androidx.recyclerview.widget.RecyclerView
+		android:id = "@+id/audio_file_list"
+		android:layout_width = "match_parent"
+		android:layout_height = "0dp"
+		app:layout_constraintBottom_toTopOf = "@id/audio_player_container"
+		app:layout_constraintTop_toTopOf = "parent"
+		/>
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id = "@+id/record_test_audio_button"
+		android:layout_width = "120dp"
+		android:layout_height = "120dp"
+		android:layout_marginStart = "10dp"
+		android:layout_marginEnd = "25dp"
+		android:layout_marginBottom = "30dp"
+		android:background = "@drawable/background_record_button"
+		android:text = "@string/start_mic_capturing"
+		app:layout_constraintBottom_toTopOf = "@id/audio_player_container"
+		app:layout_constraintEnd_toEndOf = "parent"
+		/>
+
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id = "@+id/recording"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:text = "@string/recording"
+		android:visibility = "gone"
+		app:layout_constraintBottom_toBottomOf = "@id/record_test_audio_button"
+		app:layout_constraintEnd_toStartOf = "@id/record_test_audio_button"
+		app:layout_constraintTop_toTopOf = "@id/record_test_audio_button"
+		/>
+
+	<LinearLayout
+		android:id = "@+id/audio_player_container"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:gravity = "end"
+		android:orientation = "vertical"
+		app:layout_constraintBottom_toBottomOf = "parent"
+		app:layout_constraintEnd_toEndOf = "parent"
+		app:layout_constraintStart_toStartOf = "parent"
+		>
+
+		<CheckBox
+			android:id = "@+id/enable_playback"
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layoutDirection = "rtl"
+			android:text = "@string/enable_playback"
+			>
+
+		</CheckBox>
+
+		<CheckBox
+			android:id = "@+id/enable_noise_suppression"
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layoutDirection = "rtl"
+			android:text = "@string/enable_noise_suppression"
+			>
+
+		</CheckBox>
+
+		<!--		<androidx.appcompat.widget.AppCompatButton-->
+		<!--			android:id = "@+id/play_original"-->
+		<!--			android:layout_width = "wrap_content"-->
+		<!--			android:layout_height = "wrap_content"-->
+		<!--			android:layout_marginHorizontal = "15dp"-->
+		<!--			android:layout_marginVertical = "15dp"-->
+		<!--			android:drawableTop = "@drawable/ic_play_circle"-->
+		<!--			android:text = "@string/original"-->
+		<!--			app:layout_constraintBottom_toBottomOf = "parent"-->
+		<!--			app:layout_constraintStart_toStartOf = "parent"-->
+		<!--			/>-->
+
+
+		<!--		<androidx.appcompat.widget.AppCompatButton-->
+		<!--			android:id = "@+id/play_speed"-->
+		<!--			android:layout_width = "wrap_content"-->
+		<!--			android:layout_height = "wrap_content"-->
+		<!--			android:layout_marginHorizontal = "15dp"-->
+		<!--			android:layout_marginVertical = "15dp"-->
+		<!--			android:drawableTop = "@drawable/ic_play_circle"-->
+		<!--			android:text = "@string/speed"-->
+		<!--			app:layout_constraintBottom_toBottomOf = "parent"-->
+		<!--			app:layout_constraintEnd_toEndOf = "parent"-->
+		<!--			app:layout_constraintStart_toEndOf = "@id/play_original"-->
+		<!--			/>-->
+
+	</LinearLayout>
+
+	<ProgressBar
+		android:id = "@+id/sdk_init_bar"
+		style = "?android:attr/progressBarStyleLarge"
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:layout_gravity = "center_horizontal"
+		android:background = "#70AAAAAA"
+		android:clickable = "true"
+		android:indeterminate = "true"
+		android:indeterminateDrawable = "@drawable/progress_bar"
+		/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

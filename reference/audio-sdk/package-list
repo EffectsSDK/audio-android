@@ -1,0 +1,51 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.effectssdk.audio.pipeline////PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/index.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline///PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/index.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/enableNoiseSuppression/#kotlin.Boolean/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/enable-noise-suppression.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/flushBytes/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/flush-bytes.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/flushFloats/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/flush-floats.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/getLatencyMode/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/get-latency-mode.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/isNoiseSuppressionEnabled/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/is-noise-suppression-enabled.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/process/#kotlin.ByteArray/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/process.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/process/#kotlin.FloatArray/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/process.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/reset/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/reset.md
+$dokka.location:com.effectssdk.audio.pipeline/AudioPipeline/setLatencyMode/#com.effectssdk.audio.pipeline.LatencyMode/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-audio-pipeline/set-latency-mode.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType.ENCODING_PCM_16BIT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio.pipeline/-input-type/-e-n-c-o-d-i-n-g_-p-c-m_16-b-i-t/index.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType.ENCODING_PCM_FLOAT///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio.pipeline/-input-type/-e-n-c-o-d-i-n-g_-p-c-m_-f-l-o-a-t/index.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType///PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-input-type/index.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType/entries/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-input-type/entries.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType/valueOf/#kotlin.String/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-input-type/value-of.md
+$dokka.location:com.effectssdk.audio.pipeline/InputType/values/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-input-type/values.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode.FILE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/-f-i-l-e/index.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode.PLAYBACK///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/-p-l-a-y-b-a-c-k/index.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode.STREAMING///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/-s-t-r-e-a-m-i-n-g/index.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode///PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/index.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode/entries/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/entries.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode/valueOf/#kotlin.String/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/value-of.md
+$dokka.location:com.effectssdk.audio.pipeline/LatencyMode/values/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-latency-mode/values.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig///PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/index.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig/PipelineConfig/#kotlin.Int#kotlin.Int#com.effectssdk.audio.pipeline.InputType#com.effectssdk.audio.pipeline.LatencyMode/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/-pipeline-config.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig/dataType/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/data-type.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig/latencyMode/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/latency-mode.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig/numberOfChannels/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/number-of-channels.md
+$dokka.location:com.effectssdk.audio.pipeline/PipelineConfig/sampleRate/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-pipeline-config/sample-rate.md
+$dokka.location:com.effectssdk.audio.pipeline/Releasable///PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-releasable/index.md
+$dokka.location:com.effectssdk.audio.pipeline/Releasable/release/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio.pipeline/-releasable/release.md
+$dokka.location:com.effectssdk.audio////PointingToDeclaration/audio-sdk/com.effectssdk.audio/index.md
+$dokka.location:com.effectssdk.audio/AudioEffectsSDK///PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-effects-s-d-k/index.md
+$dokka.location:com.effectssdk.audio/AudioEffectsSDK/getAudioSdkFactory/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-effects-s-d-k/get-audio-sdk-factory.md
+$dokka.location:com.effectssdk.audio/AudioEffectsSDK/getVersionName/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-effects-s-d-k/get-version-name.md
+$dokka.location:com.effectssdk.audio/AudioSdkFactory///PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-sdk-factory/index.md
+$dokka.location:com.effectssdk.audio/AudioSdkFactory/auth/#kotlin.String#kotlin.Function1[com.effectssdk.audio.LicenseStatus,kotlin.Unit]/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-sdk-factory/auth.md
+$dokka.location:com.effectssdk.audio/AudioSdkFactory/createAudioPipeline/#com.effectssdk.audio.pipeline.PipelineConfig/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-audio-sdk-factory/create-audio-pipeline.md
+$dokka.location:com.effectssdk.audio/LicenseStatus.ACTIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio/-license-status/-a-c-t-i-v-e/index.md
+$dokka.location:com.effectssdk.audio/LicenseStatus.ERROR///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio/-license-status/-e-r-r-o-r/index.md
+$dokka.location:com.effectssdk.audio/LicenseStatus.EXPIRED///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio/-license-status/-e-x-p-i-r-e-d/index.md
+$dokka.location:com.effectssdk.audio/LicenseStatus.INACTIVE///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}audio-sdk/com.effectssdk.audio/-license-status/-i-n-a-c-t-i-v-e/index.md
+$dokka.location:com.effectssdk.audio/LicenseStatus///PointingToDeclaration/audio-sdk/com.effectssdk.audio/-license-status/index.md
+$dokka.location:com.effectssdk.audio/LicenseStatus/entries/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-license-status/entries.md
+$dokka.location:com.effectssdk.audio/LicenseStatus/valueOf/#kotlin.String/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-license-status/value-of.md
+$dokka.location:com.effectssdk.audio/LicenseStatus/values/#/PointingToDeclaration/audio-sdk/com.effectssdk.audio/-license-status/values.md
+com.effectssdk.audio
+com.effectssdk.audio.pipeline

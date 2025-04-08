@@ -1,0 +1,8 @@
+.idea
+.gradle
+local.properties
+audio-sdk-demo-app/libs
+audio-sdk-demo-app/build
+domain/build
+buildSrc/.gradle
+build/

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android = "http://schemas.android.com/apk/res/android">
+
+	<!--	<item-->
+	<!--		android:id = "@+id/play_original"-->
+	<!--		android:title = "@string/original"-->
+	<!--		/>-->
+
+	<!--	<item-->
+	<!--		android:id = "@+id/play_denoise"-->
+	<!--		android:title = "@string/denoise"-->
+	<!--		/>-->
+
+	<item
+		android:id = "@+id/remove"
+		android:title = "@string/remove"
+		/>
+
+	<item
+		android:id = "@+id/rename"
+		android:title = "@string/rename"
+		/>
+
+</menu>
