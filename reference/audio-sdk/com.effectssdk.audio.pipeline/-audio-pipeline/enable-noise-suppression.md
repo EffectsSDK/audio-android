@@ -3,8 +3,7 @@
 # enableNoiseSuppression
 
 [androidJvm]\
-abstract fun [enableNoiseSuppression](enable-noise-suppression.md)(
-enable: [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html))
+abstract fun [enableNoiseSuppression](enable-noise-suppression.md)(enable: [Boolean](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin/-boolean/index.html))
 
 Enables/disables noise suppression
 
@@ -12,6 +11,6 @@ Enables/disables noise suppression
 
 androidJvm
 
-|        |                                  |
-|--------|----------------------------------|
+| | |
+|---|---|
 | enable | true to enable, false to disable |

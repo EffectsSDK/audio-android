@@ -8,13 +8,13 @@ Marks objects requiring resource cleanup
 
 #### Inheritors
 
-|                                                                           |
-|---------------------------------------------------------------------------|
+| |
+|---|
 | [AudioSdkFactory](../../com.effectssdk.audio/-audio-sdk-factory/index.md) |
-| [AudioPipeline](../-audio-pipeline/index.md)                              |
+| [AudioPipeline](../-audio-pipeline/index.md) |
 
 ## Functions
 
-| Name                  | Summary                                                                                  |
-|-----------------------|------------------------------------------------------------------------------------------|
+| Name | Summary |
+|---|---|
 | [release](release.md) | [androidJvm]<br>abstract fun [release](release.md)()<br>Releases all allocated resources |

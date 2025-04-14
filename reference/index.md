@@ -4,7 +4,7 @@
 
 ## Packages
 
-| Name                                                                              |
-|-----------------------------------------------------------------------------------|
-| [com.effectssdk.audio](audio-sdk/com.effectssdk.audio/index.md)                   |
+| Name |
+|---|
+| [com.effectssdk.audio](audio-sdk/com.effectssdk.audio/index.md) |
 | [com.effectssdk.audio.pipeline](audio-sdk/com.effectssdk.audio.pipeline/index.md) |

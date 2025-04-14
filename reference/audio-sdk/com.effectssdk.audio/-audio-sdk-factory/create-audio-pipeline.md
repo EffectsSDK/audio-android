@@ -3,8 +3,7 @@
 # createAudioPipeline
 
 [androidJvm]\
-abstract fun [createAudioPipeline](create-audio-pipeline.md)(
-options: [PipelineConfig](../../com.effectssdk.audio.pipeline/-pipeline-config/index.md)): [AudioPipeline](../../com.effectssdk.audio.pipeline/-audio-pipeline/index.md)
+abstract fun [createAudioPipeline](create-audio-pipeline.md)(options: [PipelineConfig](../../com.effectssdk.audio.pipeline/-pipeline-config/index.md)): [AudioPipeline](../../com.effectssdk.audio.pipeline/-audio-pipeline/index.md)
 
 Creates configured audio pipeline
 
@@ -16,6 +15,6 @@ Initialized AudioPipeline instance
 
 androidJvm
 
-|         |                                   |
-|---------|-----------------------------------|
+| | |
+|---|---|
 | options | Pipeline configuration parameters |

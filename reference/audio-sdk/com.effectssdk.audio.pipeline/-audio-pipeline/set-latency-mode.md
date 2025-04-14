@@ -11,6 +11,6 @@ Sets processing latency mode
 
 androidJvm
 
-|      |                              |
-|------|------------------------------|
+| | |
+|---|---|
 | mode | Target latency configuration |

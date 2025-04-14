@@ -118,7 +118,7 @@ audioSdkFactory.release()
 
 ## Documentation
 
-[Code sample](examples/SampleFragment.kt)
+[Code sample](samples/SampleFragment.kt)
 
 [API reference](reference/index.md)
 
